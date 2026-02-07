@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Self-Love Valentine's Week 💪❤️</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <link rel="stylesheet" href="style.css"/>
+  <style>
+  * {
+    cursor: url('https://cur.cursors-4u.net/symbols/sym-1/sym49.cur'), auto !important;
+  }
+</style>
+</head>
+<body class="bg-gradient">
+  <div class="container py-5">
+    <h1 class="text-center display-4 fw-bold mb-5 dancing-script pink-glow">
+      My Self-Love Valentine's Week 🌟
+    </h1>
+    <p class="text-center lead mb-5">
+      Single & shining! Celebrate YOU every day 💖
+    </p>
+
+    <div class="row g-4 justify-content-center">
+      <!-- Rose Day -->
+      <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+        <div class="card day-card rose text-center shadow" onclick="startDay(7,'Rose Day','Roses are red, I\'m single instead — thriving on self-love, no tears shed. Bloom where you\'re planted, queen/king!','rosePetalCollector')">
+          <div class="card-body">
+            <h5>7 Feb - Rose Day 🌹</h5>
+          </div>
+        </div>
+      </div>
+
+      <!-- Propose Day -->
+      <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+        <div class="card day-card propose text-center shadow" onclick="startDay(8,'Propose Day','Proposing to myself: Will you be my forever vibe? Yes — no drama, all self-care included.','selfProposalQuiz')">
+          <div class="card-body">
+            <h5>8 Feb - Propose Day 💍</h5>
+          </div>
+        </div>
+      </div>
+
+      <!-- Chocolate Day -->
+      <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+        <div class="card day-card chocolate text-center shadow" onclick="startDay(9,'Chocolate Day','Chocolates melt, but my independence is forever solid. Sweet on myself, zero calories in self-love.','chocolateDodge')">
+          <div class="card-body">
+            <h5>9 Feb - Chocolate Day 🍫</h5>
+          </div>
+        </div>
+      </div>
+
+      <!-- Teddy Day -->
+      <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+        <div class="card day-card teddy text-center shadow" onclick="startDay(10,'Teddy Day','Teddy bears are cute, but I\'m cuddling my own awesomeness tonight. No stuffing required.','teddyHugTimer')">
+          <div class="card-body">
+            <h5>10 Feb - Teddy Day 🧸</h5>
+          </div>
+        </div>
+      </div>
+
+      <!-- Promise Day -->
+      <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+        <div class="card day-card promise text-center shadow" onclick="startDay(11,'Promise Day','Promise to myself: No settling, only leveling up. Single and unstoppable.','promiseChain')">
+          <div class="card-body">
+            <h5>11 Feb - Promise Day 🤝</h5>
+          </div>
+        </div>
+      </div>
+
+      <!-- Hug Day -->
+      <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+        <div class="card day-card hug text-center shadow" onclick="startDay(12,'Hug Day','Sending virtual hugs to my single self — because I\'m worth all the warmth, no plus-one needed.','hugBurst')">
+          <div class="card-body">
+            <h5>12 Feb - Hug Day 🤗</h5>
+          </div>
+        </div>
+      </div>
+
+      <!-- Kiss Day -->
+      <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+        <div class="card day-card kiss text-center shadow" onclick="startDay(13,'Kiss Day','Kissing my own reflection: Mwah! Self-love tastes better than any lipstick.','kissTarget')">
+          <div class="card-body">
+            <h5>13 Feb - Kiss Day 😘</h5>
+          </div>
+        </div>
+      </div>
+
+      <!-- Valentine's Day -->
+      <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+        <div class="card day-card valentine text-center shadow" onclick="startDay(14,'Valentine\'s Day','Valentine\'s? I\'m dating my goals, my peace, and my Netflix queue. Best relationship ever.','heartBreaker')">
+          <div class="card-body">
+            <h5>14 Feb - Valentine's Day ❤️</h5>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slap Day -->
+      <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+        <div class="card day-card slap text-center shadow" onclick="startDay(15,'Slap Day','Slapping away negativity and bad vibes — my single life just got a fierce upgrade.','slapNegativity')">
+          <div class="card-body">
+            <h5>15 Feb - Slap Day 👋</h5>
+          </div>
+        </div>
+      </div>
+
+      <!-- Kick Day -->
+      <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+        <div class="card day-card kick text-center shadow" onclick="startDay(16,'Kick Day','Kicking toxic energy to the curb. My solo journey? Kicking goals daily.','kickChallenge')">
+          <div class="card-body">
+            <h5>16 Feb - Kick Day 🦵</h5>
+          </div>
+        </div>
+      </div>
+
+      <!-- Perfume Day -->
+      <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+        <div class="card day-card perfume text-center shadow" onclick="startDay(17,'Perfume Day','Spritzing confidence — smelling like success and zero regrets. Single never smelled better.','perfumeMixer')">
+          <div class="card-body">
+            <h5>17 Feb - Perfume Day 🌸</h5>
+          </div>
+        </div>
+      </div>
+
+      <!-- Flirting Day -->
+      <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+        <div class="card day-card flirt text-center shadow" onclick="startDay(18,'Flirting Day','Flirting with life, my dreams, and maybe my mirror. Who needs a pickup line when you\'re this fly?','flirtGenerator')">
+          <div class="card-body">
+            <h5>18 Feb - Flirting Day 😉</h5>
+          </div>
+        </div>
+      </div>
+
+      <!-- Confession Day -->
+      <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+        <div class="card day-card confession text-center shadow" onclick="startDay(19,'Confession Day','Confession: I\'m obsessed with my own growth. No apologies for being single and shining.','confessionBooth')">
+          <div class="card-body">
+            <h5>19 Feb - Confession Day 📝</h5>
+          </div>
+        </div>
+      </div>
+
+      <!-- Missing Day -->
+      <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+        <div class="card day-card missing text-center shadow" onclick="startDay(20,'Missing Day','Missing? Nah, I\'m present and accounted for — missing no one but yesterday\'s doubts.','findMissing')">
+          <div class="card-body">
+            <h5>20 Feb - Missing Day ❓</h5>
+          </div>
+        </div>
+      </div>
+
+      <!-- BreakUP Day + Finish button -->
+      <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+        <div class="card day-card breakup text-center shadow" onclick="startDay(21,'BreakUP Day','Breaking up with average — hello, extraordinary single life. Best decision ever.','breakFree')">
+          <div class="card-body">
+            <h5>21 Feb - BreakUP Day ✂️</h5>
+          </div>
+        </div>
+      </div>
+
+      <!-- Finish & Celebrate button beside BreakUP Day -->
+      <div class="col-12 text-center mt-4 mb-5">
+        <a href="thankyou.html" class="btn btn-success btn-lg px-5 py-3 shadow-lg">
+          Finish Week & Celebrate! 🎉 → Thank You Page
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal -->
+  <div class="modal fade" id="dayModal" tabindex="-1" aria-labelledby="dayModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+      <div class="modal-content bg-pastel">
+        <div class="modal-header border-0">
+          <h5 class="modal-title fw-bold" id="dayTitle"></h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body text-center">
+          <p id="dayQuote" class="lead fw-semibold mb-4"></p>
+          <button id="startGameBtn" class="btn btn-pink btn-lg mb-3">Start Game 🎮</button>
+          <div id="gameArea" class="mt-3 position-relative" style="min-height: 380px;"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

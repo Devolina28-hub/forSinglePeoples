@@ -1,0 +1,147 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #ffe6f2, #fff0f5, #f8e1e9);
+  color: #333;
+}
+
+.bg-gradient {
+  background: linear-gradient(to bottom right, #ff9ec1, #fecdd3, #fda4af);
+}
+
+.heart-beat {
+  animation: heartbeat 1.5s infinite;
+}
+
+@keyframes heartbeat {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.08); }
+}
+
+.btn-pink {
+  background: #ff69b4;
+  color: white;
+}
+
+.btn-pink:hover {
+  background: #ff1493;
+  transform: scale(1.05);
+}
+
+.dancing-script {
+  font-family: 'Dancing Script', cursive;
+  color: #ff1493;
+}
+
+.pink-glow {
+  text-shadow: 0 0 15px #ff69b4;
+}
+
+.day-card {
+  border: none;
+  border-radius: 20px;
+  transition: all 0.3s;
+  background: rgba(255,255,255,0.75);
+  backdrop-filter: blur(8px);
+}
+
+.day-card:hover {
+  transform: translateY(-12px);
+  box-shadow: 0 20px 40px rgba(255,105,180,0.35);
+}
+
+.rose       { border-top: 8px solid #e63946; }
+.propose    { border-top: 8px solid #8338ec; }
+.chocolate  { border-top: 8px solid #6d4c41; }
+.teddy      { border-top: 8px solid #d4a373; }
+.promise    { border-top: 8px solid #2a9d8f; }
+.hug        { border-top: 8px solid #f4a261; }
+.kiss       { border-top: 8px solid #e76f51; }
+.valentine  { border-top: 8px solid #ff4d6d; }
+.slap       { border-top: 8px solid #ef233c; }
+.kick       { border-top: 8px solid #d00000; }
+.perfume    { border-top: 8px solid #9d4edd; }
+.flirt      { border-top: 8px solid #ff70a6; }
+.confession { border-top: 8px solid #4361ee; }
+.missing    { border-top: 8px solid #7209b7; }
+.breakup    { border-top: 8px solid #3a0ca3; }
+
+.floating-hearts {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: -1;
+}
+
+.floating-hearts::before {
+  content: '💖 💕 🌸 💗 🥰 ✨';
+  opacity: 0.5;
+  font-size: 2.8rem;
+  position: absolute;
+  animation: float 28s linear infinite;
+  white-space: nowrap;
+}
+
+@keyframes float {
+  0% { transform: translateY(110vh); }
+  100% { transform: translateY(-110vh); }
+}
+
+@keyframes fall {
+  to { transform: translateY(350px); }
+}
+
+.bg-pastel {
+  background: linear-gradient(to bottom, #fff5f7, #ffe4e6);
+}
+
+.day-card::before {
+  content: '✨';
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  font-size: 2.2rem;
+  opacity: 0.7;
+}
+/* ... keep your existing styles ... */
+
+/* Make like/share buttons more visible */
+.btn-outline-pink {
+  border-color: #ff69b4;
+  color: #ff69b4;
+  background: transparent;
+}
+
+.btn-outline-pink:hover {
+  background: #ff69b4;
+  color: white;
+}
+
+/* End Game Now button style */
+.btn-sm.btn-outline-danger {
+  font-size: 0.85rem;
+  padding: 0.25rem 0.6rem;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 100;
+}
+
+/* Better alignment in modal */
+.modal-body {
+  padding: 1.5rem;
+}
+
+#gameArea {
+  min-height: 380px;
+  border-radius: 12px;
+  overflow: hidden;
+}
+.modal-body {
+  padding: 2rem;
+  position: relative;
+}
+
+.btn-outline-danger.btn-sm {
+  font-size: 0.8rem;
+  padding: 0.3rem 0.7rem;
+}
